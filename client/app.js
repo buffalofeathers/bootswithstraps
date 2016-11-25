@@ -10,4 +10,12 @@ angular.module('boots', ['ngRoute', 'ngResource'])
         templateUrl: 'views/boots.html'
 
     })
+    .when('/staps', {
+        templateUrl: 'views/straps.html'
+
+    })
+    .when('/contact', {
+        templateUrl: 'views/contact.html'
+
+    })
 }]);
