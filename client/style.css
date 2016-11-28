@@ -1,3 +1,8 @@
+#border {
+    border: black solid .4em;
+    height: 100%;
+    border-radius: 3em;
+}
 .jumbotron {
     margin-top: 2em;
     margin-bottom: 1em;
