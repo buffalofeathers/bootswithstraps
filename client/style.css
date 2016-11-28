@@ -1,11 +1,12 @@
 #border {
     border: black solid .4em;
+    margin: 1em;
     height: 100%;
-    border-radius: 3em;
+    border-radius: 1.39em;
 }
 .jumbotron {
-    margin-top: 2em;
-    margin-bottom: 1em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     position: relative;
     background-image: url("/windows.jpg");
     height: 40%;
@@ -31,4 +32,14 @@
 .btn {
     background-color: black;
     color: silver;
+}
+.top {
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 0em;
+    border-bottom-left-radius: 0em;
+}
+.head {
+    border-bottom-left-radius: 10em;
+    border-bottom-right-radius: 10em;
 }
